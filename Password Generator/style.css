@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    border: 0;
+    background-color: rgb(1, 0, 23);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: serif;
+}
+
+#yarat  {
+    height: 40px;
+    width: 280px;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 16px;
+    border: 3px solid red;
+    transition: all 0.6s;
+    font-family: serif;
+    cursor: pointer;
+}
+
+#yarat:hover {
+    border-color: green;
+}
+
+
+#symbol {
+    width: 280px;
+    height: 20px;
+    text-align: right;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 16px;
+    border: 3px solid green;
+
+}
+
+#checktype {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 20px;
+}
+
+
+.texts {
+    font-size: 24px;
+    color: lime;
+    margin: 20px;
+}
+
+#harf {
+    cursor: pointer;
+}
+#raqam {
+    cursor: pointer;
+}
+
+#passwordfield {
+    color: lawngreen;
+    font-size: 50px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+#errorshower {
+    display: none;
+    color: red;
+    font-family: sans-serif;
+}

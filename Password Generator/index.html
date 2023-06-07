@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+   <span class="texts">Paroldagi Belgilar Miqdorini Kiriting</span>
+   <span id="errorshower"></span>
+    <input type="text" placeholder="min-6:max-20" id="symbol">
+    <span id="checktype">
+        <span>      
+            <input type="checkbox" name="Harflar" id="harf" value="true" checked>
+            <span class="texts">Harflar</span>
+        </span>
+        <span> 
+            <input type="checkbox" name="Raqamlar" id="raqam" checked>
+            <span class="texts">Raqamlar</span>
+        </span> 
+    </span>
+    <button id="yarat">Yaratish</button>
+    <span id="passwordfield"> </span>
+    <script src="script.js"></script>
+</body>
+</html>
